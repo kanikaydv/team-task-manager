@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, type ReactNode } from "react";
 import { useQueryClient } from "@tanstack/react-query";
-import { useGetMe, getGetMeQueryKey, type User } from "@workspace/api-client-react";
+import { useGetMe, getGetMeQueryKey, type User } from "@/lib/api";
 
 interface AuthContextValue {
   user: User | null;

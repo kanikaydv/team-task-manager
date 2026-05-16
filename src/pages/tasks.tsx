@@ -6,7 +6,7 @@ import {
   getGetMyTasksQueryKey,
   getListProjectsQueryKey,
   getListProjectTasksQueryKey,
-} from "@workspace/api-client-react";
+} from "@/lib/api";
 import { Layout } from "@/components/Layout";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "wouter";

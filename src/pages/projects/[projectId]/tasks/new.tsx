@@ -7,8 +7,8 @@ import {
   useGetProject,
   getGetProjectQueryKey,
   getListProjectTasksQueryKey,
-} from "@workspace/api-client-react";
-import type { TaskInput, TaskInputStatus, TaskInputPriority } from "@workspace/api-client-react";
+} from "@/lib/api";
+import type { TaskInput, TaskInputStatus, TaskInputPriority } from "@/lib/api";
 import { useQueryClient } from "@tanstack/react-query";
 import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";

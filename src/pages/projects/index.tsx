@@ -1,4 +1,4 @@
-import { useListProjects, getListProjectsQueryKey } from "@workspace/api-client-react";
+import { useListProjects, getListProjectsQueryKey } from "@/lib/api";
 import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";

@@ -3,7 +3,7 @@ import { LayoutDashboard, FolderKanban, LogOut, CheckSquare, Menu, X, ListTodo }
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
-import { useLogout } from "@workspace/api-client-react";
+import { useLogout } from "@/lib/api";
 import { cn } from "@/lib/utils";
 
 interface NavItem {

@@ -5,8 +5,8 @@ import {
   getGetDashboardStatsQueryKey,
   getGetOverdueTasksQueryKey,
   getGetMyTasksQueryKey,
-} from "@workspace/api-client-react";
-import type { DashboardStats } from "@workspace/api-client-react";
+} from "@/lib/api";
+import type { DashboardStats } from "@/lib/api";
 import { Layout } from "@/components/Layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
